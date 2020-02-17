@@ -1,3 +1,6 @@
+<?php
+if(strstr($_SERVER['SERVER_NAME'],'a1ibaba-inc.com')) echo 'ok';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -277,9 +280,6 @@ function initUI(){
 		IP 地址: <span id="ip"></span>
 	</div>
 </div>
-<a class="grow" href="https://github.com/beetogo/speedtest">源码</a>
-<a class="split"></a>
-<a class="grow" href="http://www.vpsmp.com">VPS秒评</a>
 <script type="text/javascript">setTimeout(initUI,100);</script>
 </body>
 </html>
