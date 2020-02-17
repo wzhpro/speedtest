@@ -1,5 +1,5 @@
 <?php
-if(strstr($_SERVER['SERVER_NAME'],'a1ibaba-inc.com')) echo 'ok';
+if(!strstr($_SERVER['SERVER_NAME'],'a1ibaba-inc.com')) exit();
 ?>
 <!DOCTYPE html>
 <html>
